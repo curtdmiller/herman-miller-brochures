@@ -1,0 +1,33 @@
+.albers-interaction {
+  .footer {
+    position: relative;
+    margin: 0;
+    padding: 4% 0 7%;
+    line-height: .75vw;
+    p {
+        font-size: 1vw;
+        position: relative;
+        left: 77%;
+        display: inline-block;
+    }
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .albers-interaction {
+    .footer {
+      p {
+        font-size: 0.75vw;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1025px) {
+  .albers-interaction {
+    .footer {
+      p {
+        font-size: 0.5vw;
+      }
+    }
+  }
+}

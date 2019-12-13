@@ -1,0 +1,23 @@
+.case-wrapper {
+  margin: 50px 10vw;
+  .case {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .case-wrapper {
+    margin: 50px 20vw;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .case-wrapper {
+    margin: 50px 30vw;
+    .case {
+      flex-direction: row;
+    }
+  }
+}

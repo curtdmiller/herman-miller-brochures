@@ -1,0 +1,50 @@
+.albers-interaction {
+  .square {
+    margin: 0 auto;
+    transition: all 500ms;
+  }
+  .square-outer {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    background-color: #5bb8ad;
+  }
+  .square-center {
+    position: absolute;
+    top: 14.65%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80.66%;
+    height: 0;
+    padding-bottom: 80.66%;
+    background-color: #317584;
+  }
+  .square-inner {
+    position: absolute;
+    top: 18.81%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 74.74%;
+    height: 0;
+    padding-bottom: 74.74%;
+    background-color: #225ba4;
+  }
+  // &:hover,
+  &.touched {
+    .square-center,
+    .square-inner {
+      top: 10%;
+      transform: scale(.8) translateX(-62%) rotate(22.5deg);
+    }
+  }
+}
+@media screen and (any-hover: hover) {
+  .albers-interaction:hover {
+    .square-center,
+    .square-inner {
+      top: 10%;
+      transform: scale(.8) translateX(-62%) rotate(22.5deg);
+    }
+  }
+}

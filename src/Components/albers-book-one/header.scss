@@ -1,0 +1,41 @@
+.albers-interaction {
+  .header {
+    margin: 0;
+    padding: 5% 0;
+    svg.title {
+      width: 100%;
+      height: auto;
+      text {
+        font-family: 'EB Garamond', serif;
+      }
+    }
+    .subtitle {
+      margin-top: -0.7em;
+      padding-left: 12%;
+      font-size: 4vw;
+      font-style: italic;
+      font-family: 'EB Garamond', serif;
+    }
+  }
+  p {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 770px) {
+  .albers-interaction {
+    .header {
+      .subtitle {
+        font-size: 3vw;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1025px) {
+  .albers-interaction {
+    .header {
+      .subtitle {
+        font-size: 2vw;
+      }
+    }
+  }
+}
