@@ -4,7 +4,7 @@ import './herman-miller.scss';
 const SteelframeSeating = () => {
     return (
         <div className="svg-wrapper">
-            <svg className="svg-main">
+            <svg className="svg-main steelframe">
                 <defs>
                     <clipPath id="semi-circle-horizontal">
                         <rect x="0" y="0" width="200" height="70" />
