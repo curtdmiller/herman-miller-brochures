@@ -1,6 +1,7 @@
 $svg-bg-steelframe: #c434a3;
 $svg-bg-storage: #0090cc;
 $svg-bg-multi-seating: #ffeb10;
+$svg-bg-mod-seating: #23ad4d;
 $red: #fd2a0d;
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
 
@@ -48,6 +49,14 @@ $red: #fd2a0d;
     #logo {
         ellipse {
           fill: $svg-bg-multi-seating;
+        }
+    }
+  }
+  &.mod-seating {
+    background-color: $svg-bg-mod-seating;
+    #logo {
+        ellipse {
+          fill: $svg-bg-mod-seating;
         }
     }
   }
