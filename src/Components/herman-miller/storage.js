@@ -20,7 +20,7 @@ const HMStorage = () => {
                 </g>
 
                 <g transform="translate(0,170)" >
-                    <g id="pattern">
+                    <g id="template">
                         <use href="#parallelogram" />
                         <use href="#parallelogram" x="-33.333" y="45"/>
                         <use href="#parallelogram" x="33.333" y="90" />
@@ -29,9 +29,9 @@ const HMStorage = () => {
                         <use href="#red-rect" x="16.6667%" y="45" />
                         <use href="#red-rect" x="0" y="90" />
                     </g>
-                    <use href="#pattern" x="0" y="135" />
-                    <use href="#pattern" x="50%" y="0" />
-                    <use href="#pattern" x="50%" y="135" />
+                    <use href="#template" x="0" y="135" />
+                    <use href="#template" x="50%" y="0" />
+                    <use href="#template" x="50%" y="135" />
                 </g>
             </svg>
         </div>

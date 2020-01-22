@@ -5,6 +5,7 @@ import SteelframeSeating from '../herman-miller/steelframe-seating';
 import HMStorage from '../herman-miller/storage';
 import HMMultipleSeating from '../herman-miller/multiple-seating';
 import HMModularSeating from '../herman-miller/mod-seating';
+import HMOfficeGroups from '../herman-miller/office-groups';
 
 const Layout = (props) => {
     return (
@@ -16,6 +17,7 @@ const Layout = (props) => {
                 <HMStorage />
                 <HMMultipleSeating />
                 <HMModularSeating />
+                <HMOfficeGroups />
                 </div>
             </div>
         </div>
