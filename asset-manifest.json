@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/herman-miller-brochures/static/css/main.0a59a86b.chunk.css",
+    "main.js": "/herman-miller-brochures/static/js/main.6c6ed7a6.chunk.js",
+    "main.js.map": "/herman-miller-brochures/static/js/main.6c6ed7a6.chunk.js.map",
+    "runtime-main.js": "/herman-miller-brochures/static/js/runtime-main.15743a7a.js",
+    "runtime-main.js.map": "/herman-miller-brochures/static/js/runtime-main.15743a7a.js.map",
+    "static/js/2.a685460f.chunk.js": "/herman-miller-brochures/static/js/2.a685460f.chunk.js",
+    "static/js/2.a685460f.chunk.js.map": "/herman-miller-brochures/static/js/2.a685460f.chunk.js.map",
+    "index.html": "/herman-miller-brochures/index.html",
+    "precache-manifest.e44d8885bdab5780e9a1ef97a8e73879.js": "/herman-miller-brochures/precache-manifest.e44d8885bdab5780e9a1ef97a8e73879.js",
+    "service-worker.js": "/herman-miller-brochures/service-worker.js",
+    "static/css/main.0a59a86b.chunk.css.map": "/herman-miller-brochures/static/css/main.0a59a86b.chunk.css.map",
+    "static/js/2.a685460f.chunk.js.LICENSE": "/herman-miller-brochures/static/js/2.a685460f.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15743a7a.js",
+    "static/js/2.a685460f.chunk.js",
+    "static/css/main.0a59a86b.chunk.css",
+    "static/js/main.6c6ed7a6.chunk.js"
+  ]
+}
