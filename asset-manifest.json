@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/herman-miller-brochures/static/css/main.639da527.chunk.css",
-    "main.js": "/herman-miller-brochures/static/js/main.357b84e5.chunk.js",
-    "main.js.map": "/herman-miller-brochures/static/js/main.357b84e5.chunk.js.map",
+    "main.js": "/herman-miller-brochures/static/js/main.7c399933.chunk.js",
+    "main.js.map": "/herman-miller-brochures/static/js/main.7c399933.chunk.js.map",
     "runtime-main.js": "/herman-miller-brochures/static/js/runtime-main.15743a7a.js",
     "runtime-main.js.map": "/herman-miller-brochures/static/js/runtime-main.15743a7a.js.map",
     "static/js/2.a685460f.chunk.js": "/herman-miller-brochures/static/js/2.a685460f.chunk.js",
     "static/js/2.a685460f.chunk.js.map": "/herman-miller-brochures/static/js/2.a685460f.chunk.js.map",
     "index.html": "/herman-miller-brochures/index.html",
-    "precache-manifest.a26430da7e0e1f66c95eb6e254c65950.js": "/herman-miller-brochures/precache-manifest.a26430da7e0e1f66c95eb6e254c65950.js",
+    "precache-manifest.6f5aa6c1ed3955fb72d4bf06c6585525.js": "/herman-miller-brochures/precache-manifest.6f5aa6c1ed3955fb72d4bf06c6585525.js",
     "service-worker.js": "/herman-miller-brochures/service-worker.js",
     "static/css/main.639da527.chunk.css.map": "/herman-miller-brochures/static/css/main.639da527.chunk.css.map",
     "static/js/2.a685460f.chunk.js.LICENSE": "/herman-miller-brochures/static/js/2.a685460f.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.15743a7a.js",
     "static/js/2.a685460f.chunk.js",
     "static/css/main.639da527.chunk.css",
-    "static/js/main.357b84e5.chunk.js"
+    "static/js/main.7c399933.chunk.js"
   ]
 }
