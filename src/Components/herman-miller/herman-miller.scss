@@ -4,6 +4,7 @@ $svg-bg-multi-seating: #ffeb10;
 $svg-bg-mod-seating: #23ad4d;
 $svg-bg-office-groups: #ff4b01;
 $svg-bg-inc: #ff8cf0;
+$svg-bg-chairs: #2ed5ff;
 $red: #fd2a0d;
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
 
@@ -78,5 +79,12 @@ $red: #fd2a0d;
         }
     }
   }
-  
+  &.chairs {
+    background-color: $svg-bg-chairs;
+    #logo {
+        ellipse {
+          fill: $svg-bg-chairs;
+        }
+    }
+  }
 }

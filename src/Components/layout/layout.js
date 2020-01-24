@@ -7,6 +7,7 @@ import HMMultipleSeating from '../herman-miller/multiple-seating';
 import HMModularSeating from '../herman-miller/mod-seating';
 import HMOfficeGroups from '../herman-miller/office-groups';
 import HMInc from '../herman-miller/hm-inc';
+import EamesChairs from '../herman-miller/eames-chairs';
 
 const Layout = (props) => {
     return (
@@ -15,6 +16,7 @@ const Layout = (props) => {
             <div className="case-wrapper">
                 <div className="case">
                 <HMInc />
+                <EamesChairs />
                 <SteelframeSeating />
                 <HMStorage />
                 <HMMultipleSeating />
