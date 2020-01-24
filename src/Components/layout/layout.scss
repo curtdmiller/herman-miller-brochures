@@ -1,20 +1,13 @@
 .case-wrapper {
-  margin: 50px 10vw;
+  margin: 0 50px;
   .case {
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: flex-start;
-  }
-}
-
-@media screen and (min-width: 770px) {
-  .case-wrapper {
-    margin: 50px 20vw;
-  }
-}
-@media screen and (min-width: 1025px) {
-  .case-wrapper {
-    margin: 50px 30vw;
+    flex-wrap: wrap;
+    .svg-wrapper {
+      flex: 1 1 220px;
+    }
   }
 }
