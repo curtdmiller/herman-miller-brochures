@@ -3,6 +3,7 @@ $svg-bg-storage: #0090cc;
 $svg-bg-multi-seating: #ffeb10;
 $svg-bg-mod-seating: #23ad4d;
 $svg-bg-office-groups: #ff4b01;
+$svg-bg-inc: #ff8cf0;
 $red: #fd2a0d;
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
 
@@ -66,6 +67,14 @@ $red: #fd2a0d;
     #logo {
         ellipse {
           fill: $svg-bg-office-groups;
+        }
+    }
+  }
+  &.inc {
+    background-color: $svg-bg-inc;
+    #logo {
+        ellipse {
+          fill: $svg-bg-inc;
         }
     }
   }
