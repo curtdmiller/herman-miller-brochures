@@ -9,6 +9,7 @@ import HMOfficeGroups from '../herman-miller/office-groups';
 import HMInc from '../herman-miller/hm-inc';
 import EamesChairs from '../herman-miller/eames-chairs';
 import HMAluminum from '../herman-miller/aluminum';
+import HMTextiles from '../herman-miller/textiles';
 
 const Layout = (props) => {
     return (
@@ -19,6 +20,7 @@ const Layout = (props) => {
                 <HMInc />
                 <EamesChairs />
                 <HMAluminum />
+                <HMTextiles />
                 <SteelframeSeating />
                 <HMStorage />
                 <HMMultipleSeating />

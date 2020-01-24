@@ -6,6 +6,7 @@ $svg-bg-office-groups: #ff4b01;
 $svg-bg-inc: #ff8cf0;
 $svg-bg-chairs: #2ed5ff;
 $svg-bg-aluminum: #ff70fc;
+$svg-bg-textiles: #fff;
 $red: #fd2a0d;
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap");
 
@@ -100,6 +101,22 @@ $red: #fd2a0d;
     }
     .pink-tri {
       fill: #ff70fc;
+    }
+  }
+  &.textiles {
+    background-color: $svg-bg-textiles;
+    #logo {
+        rect {
+          fill: #ff8cf0;
+        }
+        ellipse {
+          fill: $svg-bg-textiles;
+        }
+    }
+    #yellow-stripe {  
+      fill: #ffef0d;
+      fill-opacity: 0.8;
+      mix-blend-mode: multiply;
     }
   }
 }
