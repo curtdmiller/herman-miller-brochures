@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/herman-miller-brochures/precache-manifest.4089c684c69ab5867690e47cfadd93cd.js"
+  "/herman-miller-brochures/precache-manifest.a26430da7e0e1f66c95eb6e254c65950.js"
 );
 
 self.addEventListener('message', (event) => {
